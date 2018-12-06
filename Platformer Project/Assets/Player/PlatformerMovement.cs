@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlatformerMovement : MonoBehaviour {
 
-    public float moveSpeed = 1.0f;
-    public float jumpSpeed = 5.0f;
+    public float moveSpeed = 5.0f;
+    public float jumpSpeed = 3.0f;
     bool grounded = false;
 
 	// Update is called once per frame
@@ -51,7 +51,7 @@ public class PlatformerMovement : MonoBehaviour {
 
         }else if (collision.gameObject.tag == "jumpup")
         {
-            jumpSpeed++;
+            jumpSpeed+= 0.5f;
             Destroy(collision.gameObject);
         }
     }

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212047319976781780}
   - component: {fileID: 95839570476700352}
   - component: {fileID: 61605997077513826}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: JumpUp
   m_TagString: jumpup
   m_Icon: {fileID: 0}
