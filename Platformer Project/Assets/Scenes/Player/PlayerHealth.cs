@@ -31,7 +31,7 @@ public class PlayerHealth : MonoBehaviour {
             lives--;
             if (lives <= 0)
             {
-                SceneManager.LoadScene("Lose Screen");
+                SceneManager.LoadScene("Lose");
             }
         }
 
@@ -69,7 +69,7 @@ public class PlayerHealth : MonoBehaviour {
         Slider.GetComponent<Slider>().value = health;
         if (health <= 0)
         {
-            SceneManager.LoadScene("Lose Screen");
+            SceneManager.LoadScene("Lose");
         }
     }
 
