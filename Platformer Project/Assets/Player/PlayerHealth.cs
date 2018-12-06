@@ -57,7 +57,7 @@ public class PlayerHealth : MonoBehaviour {
         if (collision.gameObject.tag == "HealthPack")
 
         {
-            health += 4;
+            health += 2;
             Destroy(collision.gameObject);
         }
         if (health > 10)

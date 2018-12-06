@@ -48,6 +48,15 @@ public class PlatformerMovement : MonoBehaviour {
         {
             moveSpeed++;
             Destroy(collision.gameObject);
+
+        }else if (collision.gameObject.tag == "jumpup")
+        {
+            jumpSpeed++;
+            Destroy(collision.gameObject);
         }
     }
+    
+    
+        
+    
 }

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - speedup
+  - HealthPack
+  - jumpup
   layers:
   - Default
   - TransparentFX
