@@ -64,12 +64,23 @@ public class PlayerHealth : MonoBehaviour {
         {
             health = 10;
         }
+        if (collision.gameObject.tag == "Missile")
+        {
+            health--;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "Spikes")
+        {
+            PlayerPrefs.SetInt("lives", lives - 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
         HealthText.GetComponent<Text>().text = "Health";
         HealthNumbers.GetComponent<Text>().text = "" + health + "/10";
         Slider.GetComponent<Slider>().value = health;
         if (health <= 0)
         {
-            SceneManager.LoadScene("Lose");
+            PlayerPrefs.SetInt("lives", lives - 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 
