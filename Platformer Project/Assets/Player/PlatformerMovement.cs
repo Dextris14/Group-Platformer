@@ -10,6 +10,7 @@ public class PlatformerMovement : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+        GetComponent<Animator>().SetBool("Grounded", grounded);
         float moveX = Input.GetAxis("Horizontal");
         Vector3 velocity = GetComponent<Rigidbody2D>().velocity;
         velocity.x = moveX * moveSpeed;

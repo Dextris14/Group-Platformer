@@ -29,5 +29,6 @@ public class PlayerAnimationControl : MonoBehaviour {
             GetComponent<Animator>().SetFloat("y", 0);
             GetComponent<Animator>().SetFloat("x", 0);
         }
+
     }
 }
