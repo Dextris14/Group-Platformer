@@ -66,7 +66,7 @@ public class PlayerHealth : MonoBehaviour {
         }
         if (collision.gameObject.tag == "Missile")
         {
-            health--;
+            health -= 2;
             Destroy(collision.gameObject);
         }
         if (collision.gameObject.tag == "Spikes")
