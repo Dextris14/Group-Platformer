@@ -9,6 +9,8 @@ TagManager:
   - jumpup
   - coins
   - Enemy
+  - shoot
+  - Missile
   layers:
   - Default
   - TransparentFX
@@ -21,7 +23,7 @@ TagManager:
   - Ground
   - Player
   - Collectibles
-  - Enemy
+  - Missiles
   - 
   - 
   - 
