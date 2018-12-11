@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1078425450361094, guid: d0eefd5a4920dcf4c9fd8a8a59aa29a8, type: 2}
-  shoot: {fileID: 0}
+  shoot: {fileID: 1567970910366088, guid: 3757bd77d92de0e42a87034b6ad38ba2, type: 2}
   bulletSpeed: 4
   shootDistance: 5
   bulletLifetime: 10
