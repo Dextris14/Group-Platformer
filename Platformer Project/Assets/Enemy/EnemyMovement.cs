@@ -22,7 +22,9 @@ public class EnemyMovement : MonoBehaviour {
         if(distanceFromStart >= paceDistance)
         {
             //change direction
-            paceDirection = -paceDirection;
+            paceDirection = -displacement;
+            paceDirection.Normalize();
+            paceDirection = paceDirection * moveSpeed;
         }
         GetComponent<Rigidbody2D>().velocity = paceDirection;
 	}
