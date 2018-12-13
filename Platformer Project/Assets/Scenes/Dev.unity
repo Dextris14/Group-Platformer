@@ -172,6 +172,14 @@ Prefab:
       propertyPath: coinText
       value: 
       objectReference: {fileID: 1121529340}
+    - target: {fileID: 1861682244946074, guid: d0603c97f3976fa4d9f3e169f41117fa, type: 2}
+      propertyPath: m_Name
+      value: Kiki
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861682244946074, guid: d0603c97f3976fa4d9f3e169f41117fa, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0603c97f3976fa4d9f3e169f41117fa, type: 2}
   m_IsPrefabAsset: 0
