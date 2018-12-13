@@ -8,7 +8,7 @@ public class PlayerHealth : MonoBehaviour {
 
     public int health = 10;
     public int lives = 10;
-    public GameObject HealthPack;
+   
     public Text HealthText;
     public Text HealthNumbers;
     public Slider Slider;
@@ -47,7 +47,7 @@ public class PlayerHealth : MonoBehaviour {
         {
             Destroy(collision.gameObject);
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 150));
-            GameObject healthPack = (GameObject)Instantiate(HealthPack, collision.gameObject.transform.position, Quaternion.identity);
+            
 
         }
         if (collision.gameObject.tag == "Obstical")
