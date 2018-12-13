@@ -8,13 +8,14 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour {
 
     public Text TimeLeft;
-    float timer = 75;
+    public float timer = 75;
     public Slider Slider;
+    public int StartTime = 75;
 
     // Update is called once per frame
     void Update () {
         timer -= Time.deltaTime;
-        TimeLeft.GetComponent<Text>().text = "" + Mathf.RoundToInt(timer) + "/75";
+        TimeLeft.GetComponent<Text>().text = "" + Mathf.RoundToInt(timer) + "/"+ StartTime;
         Slider.GetComponent<Slider>().value = timer;
         if (timer <= 0)
         {

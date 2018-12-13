@@ -793,6 +793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimeLeft: {fileID: 1686751512}
+  timer: 75
   Slider: {fileID: 438197742}
 --- !u!1 &517859594
 GameObject:
