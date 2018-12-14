@@ -687,6 +687,11 @@ Prefab:
       propertyPath: TimeLeft
       value: 
       objectReference: {fileID: 1686751512}
+    - target: {fileID: 114877856117880430, guid: 6eaade5716989644088e31a711bbff9d,
+        type: 2}
+      propertyPath: timer
+      value: 75
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6eaade5716989644088e31a711bbff9d, type: 2}
   m_IsPrefabAsset: 0
