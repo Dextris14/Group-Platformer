@@ -119,8 +119,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paceDirection: {x: -21, y: 0, z: 0}
-  paceDistance: 6
-  moveSpeed: 0.55
+  paceDistance: 4.5
+  moveSpeed: 0.75
 --- !u!212 &212132275423395320
 SpriteRenderer:
   m_ObjectHideFlags: 1
