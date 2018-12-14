@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bb062032429af9449f638b6e54f1a18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paceDirection: {x: -21, y: 0, z: 0}
+  paceDirection: {x: 21, y: 0, z: 0}
   paceDistance: 4.5
   moveSpeed: 0.75
 --- !u!212 &212132275423395320
