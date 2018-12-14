@@ -12,6 +12,7 @@ TagManager:
   - shoot
   - Missile
   - Spikes
+  - Tar
   layers:
   - Default
   - TransparentFX

@@ -54,6 +54,11 @@ public class PlatformerMovement : MonoBehaviour {
         {
             jumpSpeed+= 0.5f;
             Destroy(collision.gameObject);
+        }else if (collision.gameObject.tag == "Tar")
+        {
+            moveSpeed -= 0.5f;
+            Destroy(collision.gameObject);
+
         }
     }
     
